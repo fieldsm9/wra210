@@ -1,6 +1,6 @@
 /* This makes the horizontal nav bar appear */
 .nav {
-background:#005555;
+background:#624fa8;
 padding:0;
 margin:0;
 list-style-type:none;
@@ -36,7 +36,7 @@ list-style-type:none;
 }
 
 /* This is for when a mouse scrolls over the link */
-.nav li:hover { position:relative; background:#5FD367; }
+.nav li:hover { position:relative; background:#69a84; }
 
 /* This makes the the sub-nav appear */
 .nav li:hover ul {
@@ -52,8 +52,8 @@ padding:5px;
 display:block;
 width:168px;
 text-indent:15px;
-background-color:#5FD367;
+background-color:#69a84;
 }
 
 /* This makes the hover background of the subnav different */
-.nav li:hover ul li a:hover { background:#005555; }
+.nav li:hover ul li a:hover { background:#624fa8; }
