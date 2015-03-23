@@ -36,13 +36,13 @@ list-style-type:none;
 }
 
 /* This is for when a mouse scrolls over the link */
-.nav li:hover { position:relative; background:#69A84; }
+.nav li:hover { position:relative; background:#69a84f; }
 
 /* This makes the the sub-nav appear */
 .nav li:hover ul {
 left:0px;
 top:30px;
-background:#69A84;
+background:#69a84f;
 padding:0px;
 }
 
@@ -52,7 +52,7 @@ padding:5px;
 display:block;
 width:168px;
 text-indent:15px;
-background-color:#69A84;
+background-color:#69a84f;
 }
 
 /* This makes the hover background of the subnav different */
