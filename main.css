@@ -55,5 +55,14 @@ text-indent:15px;
 background-color:#69a84f;
 }
 
+/* This makes the sub-links work */
+.nav li:hover ul li p {
+padding:5px;
+display:block;
+width:168px;
+text-indent:15px;
+background-color:#69a84f;
+}
+
 /* This makes the hover background of the subnav different */
 .nav li:hover ul li a:hover { background:#624FA8; }
