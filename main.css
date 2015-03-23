@@ -3,12 +3,12 @@ background:#005555;
 padding:0;
 margin:0;
 list-style-type:none;
-height:30px;
+height:60px;
 }
 
-/*.nav li { float:left; }
+.nav li { float:left; }
 
-.nav li a {
+/*.nav li a {
 padding:9px 20px;
 display:block;
 color:#fff;
