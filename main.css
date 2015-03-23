@@ -48,7 +48,7 @@ padding:0px;
 
 /* This makes the sub-links work */
 .nav li:hover ul li a {
-padding:5px;
+padding:0px;
 display:block;
 width:168px;
 text-indent:15px;
