@@ -1,3 +1,4 @@
+/* This makes the horizontal nav bar appear */
 .nav {
 background:#005555;
 padding:0;
@@ -6,9 +7,10 @@ list-style-type:none;
 height:60px;
 }
 
+/* This makes the list items appear inside the nav bar */
 .nav li { float:left; }
 
-/*.nav li a {
+.nav li a {
 padding:9px 20px;
 display:block;
 color:#fff;
@@ -16,7 +18,7 @@ text-decoration:none;
 font:12px arial, verdana, sans-serif;
 }
 
-.nav li p {
+/*.nav li p {
 padding:9px 20px;
 display:block;
 color:#fff;
