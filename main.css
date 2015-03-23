@@ -16,6 +16,14 @@ text-decoration:none;
 font:12px arial, verdana, sans-serif;
 }
 
+.nav li p {
+padding:9px 20px;
+display:block;
+color:#fff;
+text-decoration:none;
+font:12px arial, verdana, sans-serif;
+}
+
 .nav ul {
 position:absolute;
 left:-9999px;
