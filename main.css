@@ -4,7 +4,7 @@ background:#624FA8;
 padding:0;
 margin:0;
 list-style-type:none;
-height:30px;
+height:35px;
 }
 
 /* This makes the list items appear inside the nav bar */
@@ -12,7 +12,7 @@ height:30px;
 
 /* This changes the color/text/design of the links */
 .nav li a {
-padding:9px 20px;
+padding:12px 20px;
 display:block;
 color:#fff;
 text-decoration:none;
@@ -21,7 +21,7 @@ font:12px "Trebuchet MS", sans-serif;
 
 /* This changes the color/text/design of the paragraph */
 .nav li p {
-padding:9px 20px;
+padding:0px 20px;
 display:block;
 color:#fff;
 text-decoration:none;
@@ -41,22 +41,13 @@ list-style-type:none;
 /* This makes the the sub-nav appear */
 .nav li:hover ul {
 left:0px;
-top:30px;
+top:35px;
 background:#69a84f;
 padding:0px;
 }
 
 /* This makes the sub-links work */
 .nav li:hover ul li a {
-padding:5px;
-display:block;
-width:168px;
-text-indent:15px;
-background-color:#69a84f;
-}
-
-/* This makes the sub-links work */
-.nav li:hover ul li p {
 padding:5px;
 display:block;
 width:168px;
