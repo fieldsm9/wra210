@@ -10,6 +10,7 @@ height:60px;
 /* This makes the list items appear inside the nav bar */
 .nav li { float:left; }
 
+/* This changes the color/text/design of the links */
 .nav li a {
 padding:9px 20px;
 display:block;
@@ -18,7 +19,8 @@ text-decoration:none;
 font:12px arial, verdana, sans-serif;
 }
 
-/*.nav li p {
+/* This changes the color/text/design of the paragraph */
+.nav li p {
 padding:9px 20px;
 display:block;
 color:#fff;
@@ -33,7 +35,7 @@ top:-9999px;
 list-style-type:none;
 }
 
-.nav li:hover { position:relative; background:#5FD367; }
+/*.nav li:hover { position:relative; background:#5FD367; }
 
 .nav li:hover ul {
 left:0px;
