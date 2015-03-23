@@ -35,9 +35,9 @@ top:-9999px;
 list-style-type:none;
 }
 
-/*.nav li:hover { position:relative; background:#5FD367; }
+.nav li:hover { position:relative; background:#5FD367; }
 
-.nav li:hover ul {
+/*.nav li:hover ul {
 left:0px;
 top:30px;
 background:#5FD367;
