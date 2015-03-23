@@ -6,7 +6,7 @@ list-style-type:none;
 height:30px;
 }
 
-.nav li { float:left; }
+/*.nav li { float:left; }
 
 .nav li a {
 padding:9px 20px;
@@ -48,4 +48,4 @@ text-indent:15px;
 background-color:#5FD367;
 }
 
-.nav li:hover ul li a:hover { background:#005555; }
+.nav li:hover ul li a:hover { background:#005555; }*/
