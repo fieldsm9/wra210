@@ -50,6 +50,7 @@ left:240px;
 top:0px;
 background:#69a84f;
 padding:0px;
+z-index: 1;
 }
 
 /* This makes the sub-links work */
@@ -83,7 +84,7 @@ list-style-type:none;
 height:600px;
 width:240px;
 position: absolute;
-left: 600px;
+left: 360px;
 top: 150px;
 }
 
@@ -124,5 +125,57 @@ text-align: center;
 }
 
 .nav2 h2:hover {
+  background:#624FA8
+}
+
+.nav3 {
+background:#624FA8;
+padding:0;
+margin:0;
+list-style-type:none;
+height:600px;
+width:240px;
+position: absolute;
+left: 660px;
+top: 150px;
+}
+
+.nav3 li { float:center;}
+
+.nav3 li a {
+padding:12px 20px;
+display:block;
+color:#fff;
+text-decoration:none;
+font:30px "Trebuchet MS", sans-serif;
+text-align: center;
+}
+
+.nav3 li p {
+padding:12px;
+display:block;
+color:#fff;
+text-decoration:none;
+font:30px "Trebuchet MS", sans-serif;
+text-align: center;
+}
+
+.nav3 ul {
+position:absolute;
+left:-9999px;
+top:-9999px;
+list-style-type:none;
+}
+
+.nav3 li:hover { position:relative; background:#69a84f; }
+
+.nav3 h2 {
+color:#fff;
+text-decoration:underline;
+font:50px "Trebuchet MS", sans-serif;
+text-align: center;
+}
+
+.nav3 h2:hover {
   background:#624FA8
 }
