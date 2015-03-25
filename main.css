@@ -1,15 +1,18 @@
-/* Navbar help from: CSSTerm.com Simple Horizontal DropDown CSS menu */
-/* This makes the horizontal nav bar appear */
+/* This makes the nav bar appear */
 .nav {
 background:#624FA8;
 padding:0;
 margin:0;
 list-style-type:none;
-height:35px;
+height:600px;
+width:240px;
+position: absolute;
+left: 60px;
+top: 150px;
 }
 
 /* This makes the list items appear inside the nav bar */
-.nav li { float:left; }
+.nav li { float:center;}
 
 /* This changes the color/text/design of the links */
 .nav li a {
@@ -17,16 +20,18 @@ padding:12px 20px;
 display:block;
 color:#fff;
 text-decoration:none;
-font:12px "Trebuchet MS", sans-serif;
+font:30px "Trebuchet MS", sans-serif;
+text-align: center;
 }
 
 /* This changes the color/text/design of the paragraph */
 .nav li p {
-padding:0px 20px;
+padding:12px;
 display:block;
 color:#fff;
 text-decoration:none;
-font:12px "Trebuchet MS", sans-serif;
+font:30px "Trebuchet MS", sans-serif;
+text-align: center;
 }
 
 .nav ul {
@@ -41,8 +46,8 @@ list-style-type:none;
 
 /* This makes the the sub-nav appear */
 .nav li:hover ul {
-left:0px;
-top:35px;
+left:240px;
+top:0px;
 background:#69a84f;
 padding:0px;
 }
@@ -51,10 +56,73 @@ padding:0px;
 .nav li:hover ul li a {
 padding:5px;
 display:block;
-width:168px;
+width:230px;
 text-indent:15px;
 background-color:#69a84f;
 }
 
 /* This makes the hover background of the subnav different */
 .nav li:hover ul li a:hover { background:#624FA8; }
+
+.nav h2 {
+color:#fff;
+text-decoration:underline;
+font:50px "Trebuchet MS", sans-serif;
+text-align: center;
+}
+
+.nav h2:hover {
+  background:#624FA8
+}
+
+.nav2 {
+background:#624FA8;
+padding:0;
+margin:0;
+list-style-type:none;
+height:600px;
+width:240px;
+position: absolute;
+left: 600px;
+top: 150px;
+}
+
+.nav2 li { float:center;}
+
+.nav2 li a {
+padding:12px 20px;
+display:block;
+color:#fff;
+text-decoration:none;
+font:30px "Trebuchet MS", sans-serif;
+text-align: center;
+}
+
+.nav2 li p {
+padding:12px;
+display:block;
+color:#fff;
+text-decoration:none;
+font:30px "Trebuchet MS", sans-serif;
+text-align: center;
+}
+
+.nav2 ul {
+position:absolute;
+left:-9999px;
+top:-9999px;
+list-style-type:none;
+}
+
+.nav2 li:hover { position:relative; background:#69a84f; }
+
+.nav2 h2 {
+color:#fff;
+text-decoration:underline;
+font:50px "Trebuchet MS", sans-serif;
+text-align: center;
+}
+
+.nav2 h2:hover {
+  background:#624FA8
+}
