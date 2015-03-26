@@ -12,21 +12,16 @@ top: 150px;
 }
 
 /* This makes the list items appear inside the nav bar */
-.nav li { float:center;}
-
-/* This changes the color/text/design of the links */
-.nav li a {
-padding:12px 20px;
+.nav li { float:center;
+padding:20px 20px;
 display:block;
 color:#fff;
 text-decoration:none;
 font:30px "Trebuchet MS", sans-serif;
-text-align: center;
-}
+text-align: center;}
 
-/* This changes the color/text/design of the paragraph */
-.nav li p {
-padding:12px;
+/* This changes the color/text/design of the links */
+.nav li a {
 display:block;
 color:#fff;
 text-decoration:none;
@@ -68,114 +63,22 @@ background-color:#69a84f;
 .nav h2 {
 color:#fff;
 text-decoration:underline;
-font:50px "Trebuchet MS", sans-serif;
+font:40px "Trebuchet MS", sans-serif;
 text-align: center;
 }
 
-.nav h2:hover {
-  background:#624FA8
-}
-
-.nav2 {
-background:#624FA8;
-padding:0;
-margin:0;
-list-style-type:none;
-height:600px;
+#column2 {
+  height:600px;
 width:240px;
 position: absolute;
 left: 360px;
 top: 150px;
 }
 
-.nav2 li { float:center;}
-
-.nav2 li a {
-padding:12px 20px;
-display:block;
-color:#fff;
-text-decoration:none;
-font:30px "Trebuchet MS", sans-serif;
-text-align: center;
-}
-
-.nav2 li p {
-padding:12px;
-display:block;
-color:#fff;
-text-decoration:none;
-font:30px "Trebuchet MS", sans-serif;
-text-align: center;
-}
-
-.nav2 ul {
-position:absolute;
-left:-9999px;
-top:-9999px;
-list-style-type:none;
-}
-
-.nav2 li:hover { position:relative; background:#69a84f; }
-
-.nav2 h2 {
-color:#fff;
-text-decoration:underline;
-font:50px "Trebuchet MS", sans-serif;
-text-align: center;
-}
-
-.nav2 h2:hover {
-  background:#624FA8
-}
-
-.nav3 {
-background:#624FA8;
-padding:0;
-margin:0;
-list-style-type:none;
+#column3 {
 height:600px;
 width:240px;
 position: absolute;
 left: 660px;
 top: 150px;
-}
-
-.nav3 li { float:center;}
-
-.nav3 li a {
-padding:12px 20px;
-display:block;
-color:#fff;
-text-decoration:none;
-font:30px "Trebuchet MS", sans-serif;
-text-align: center;
-}
-
-.nav3 li p {
-padding:12px;
-display:block;
-color:#fff;
-text-decoration:none;
-font:30px "Trebuchet MS", sans-serif;
-text-align: center;
-}
-
-.nav3 ul {
-position:absolute;
-left:-9999px;
-top:-9999px;
-list-style-type:none;
-}
-
-.nav3 li:hover { position:relative; background:#69a84f; }
-
-.nav3 h2 {
-color:#fff;
-text-decoration:underline;
-font:50px "Trebuchet MS", sans-serif;
-text-align: center;
-}
-
-.nav3 h2:hover {
-  background:#624FA8
 }
