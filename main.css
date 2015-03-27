@@ -8,7 +8,7 @@ height:600px;
 width:240px;
 position: absolute;
 left: 60px;
-top: 150px;
+top: 300px;
 }
 
 /* This makes the list items appear inside the nav bar */
@@ -72,7 +72,7 @@ text-align: center;
 width:240px;
 position: absolute;
 left: 360px;
-top: 150px;
+top: 300px;
 }
 
 #column3 {
@@ -80,5 +80,11 @@ height:600px;
 width:240px;
 position: absolute;
 left: 660px;
-top: 150px;
+top: 300px;
+}
+
+.header {
+position: absolute;
+left: 60px;
+top: 0px;
 }
