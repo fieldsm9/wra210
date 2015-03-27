@@ -83,6 +83,14 @@ left: 660px;
 top: 300px;
 }
 
+#column4 {
+height:600px;
+width:240px;
+position: absolute;
+left: 960px;
+top: 300px;
+}
+
 .header {
 position: absolute;
 left: 60px;
