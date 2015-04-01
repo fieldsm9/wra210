@@ -96,3 +96,12 @@ position: absolute;
 left: 0px;
 top: 60px;
 }
+
+.footer {
+  position: absolute;
+  top: 930px;
+  left: 0px;
+  height: 60px;
+  width: 1260px;
+  background:#624FA8
+}
