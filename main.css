@@ -12,7 +12,7 @@ top: 270px;
 }
 
 /* This makes the list items appear inside the nav bar */
-.nav li { float:center;
+.nav li { 
 padding:20px 20px;
 display:block;
 color:#fff;
