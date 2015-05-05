@@ -1,0 +1,40 @@
+* {
+  font-family: Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+h1 {
+  color: #624fa8;
+}
+
+h2 {
+  color: #624fa8;
+}
+
+h3 {
+  color: #624fa8;
+}
+
+h4 {
+  color: #69a84f;
+}
+
+p {
+  color: #7b7b7b;
+}
+
+a {
+  color: #a84f94;
+  text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.home {
+  display:block;
+  text-align:center
+}
